@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Cifrar frase</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cifrado.css">
+    </head>
+    <body>
+        <div id="actual" class="columna costados">
+            <h2 class="title" id="tituloFraseActual">Introduzca la clave:</h3>
+            <input type="number" class="cajaTexto" id="clave">
+        </div>
+        <div class="columna centro" id="inputUsuario">
+            <h1 class="title">Cifrado de frase</h1>
+            <h3>Introduzca la frase para cifrar:</h3>
+            <input type="text" class="cajaTexto" id="entradaFrase">
+            <input type="button" value="Cifrar" id="botonCifrar" class="botones">
+            <input type="button" value="Decifrar" id="botonDecifrar" class="botones">
+            <h2 class="title decifrada" id="tituloFraseDecifrada"></h3>
+            <p id="fraseDecifrada" class="frases decifrada">
+
+            </p>
+        </div>
+        <div id="cifrada" class="columna costados">
+            <h2 class="title" id="tituloFraseCifrada"></h3>
+            <p id="fraseCifrada" class="frases">
+
+            </p>
+        </div>
+    </body>
+    <script src="cifrado.js"></script>    
+</html>
